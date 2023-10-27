@@ -1,0 +1,38 @@
+ABSTRACT:
+
+
+By using IOT technology and Arduino software the Automatic Street Light Control system is designed. 
+It automatically switches ON/OFF lights based on the sunlight brightness level and it reduces the manual work. 
+In this a sensor called Light Dependent Resistor (LDR) is used  which senses the light like our eyes.
+
+
+BASIC PRINCIPLE:
+
+The automatic streetlight control system operates on 12v DC supply.
+The automatic streetlight controller has a photoconductive device whose resistance changes proportional to the
+extent of illumination, which switched ON/OFF the LEd with the use of transistor as a switch.
+
+The LDR is used to convert light energy to electrical energy.
+
+
+COMPONENTS:
+
+LDR sensor
+resistor
+LED
+USB CABLE
+connecting wires
+Arduino UNO
+
+
+
+steps:
+
+step -1: Insert first transistor Q1-BC547 (NPN) on PCB board shown in the circuit diagram
+step -2: Connect another transistor Q2-BC547 (NPN) on PCB board shown in the circuit	diagram.
+step -3: Connect wires across emitter pin of both transistor and negative terminal of battery on the PCB board.
+srep -4: Connect a wire across collector pin of transistor Q1 and base pin of transistor Q2.
+step -5: Connect a resistor 1k across positive terminal of battery on the PCB board and collector pin transistor Q1.
+step -6: Connect LDR (Light Dependent	Resistor) across positive terminal of the battery and base terminal of transistor Q1
+step -7: Insert a transistor 330 ohm across base pin of transistor Q1 and negative terminal of battery
+
